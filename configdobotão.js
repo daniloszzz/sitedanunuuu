@@ -24,8 +24,8 @@ naoButton.addEventListener('touchstart', moveButton);
 
 // Adiciona um listener para ajustar os limites e a posição do botão quando a janela for redimensionada
 window.addEventListener('resize', () => {
-    const maxX = window.innerWidth - naoButton.offsetWidth - 50;
-    const maxY = window.innerHeight - naoButton.offsetHeight - 50;
+    const maxX = window.innerWidth - naoButton.offsetWidth - 35;
+    const maxY = window.innerHeight - naoButton.offsetHeight - 35;
     const centerX = (window.innerWidth - naoButton.offsetWidth) / 2;
     const centerY = (window.innerHeight - naoButton.offsetHeight) / 2;
     naoButton.style.left = `100px`;

@@ -68,7 +68,7 @@ button:hover {
 @media only screen and (max-width: 600px) {
   .botao {
     position: absolute;
-    top: 100px; /* Ajuste a posição conforme necessário */
-    left: 80px; /* Ajuste a posição conforme necessário */
+    top: 50%; /* Ajuste a posição conforme necessário */
+    left: 50%; /* Ajuste a posição conforme necessário */
   }
 }
